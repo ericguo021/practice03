@@ -1,0 +1,40 @@
+#container {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#sec1, #main, #sec3{
+    border: 1px solid black;
+    height: 150px;
+    margin: 5px;
+} 
+
+#sec1 {
+    background-color: yellow;
+}
+
+#main {
+    display: flex;
+   
+}
+
+#sec3 {
+    background-color: blue;
+}
+
+
+#main div{
+    border: 2px soild black;
+    flex-basis: 50%;
+
+}
+
+#div1 {
+    background-color: grey;
+    border: 3px soild black;
+}
+
+#div2 {
+    background-color: mediumaquamarine;
+    border: 3px soild black;
+}
